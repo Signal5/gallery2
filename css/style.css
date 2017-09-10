@@ -1,0 +1,61 @@
+
+
+.gallery{
+    
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+    height: 100%;
+    background: #333;
+    overflow: hidden;
+}
+
+#bord{
+    border: 3px solid #fff;
+    overflow: hidden;
+}
+
+figure {
+    background-position: center;
+    background-size: cover;
+}
+
+.portrait{
+    width: 25%;
+}
+
+.landscape{
+    width: 50%;
+}
+
+.portrait, .landscape{
+    float: left;
+}
+
+#a3{
+    background-position: 30% 50%  
+}
+
+figure:before{
+    width: 100%;
+/*    height: 100%;*/
+    border: 3px solid #fff;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    
+}
+
+
+@media only screen  and (max-width: 764px){
+    .portrait, .landscape{
+        width: 100%;
+    }  
+}
+
+
+
